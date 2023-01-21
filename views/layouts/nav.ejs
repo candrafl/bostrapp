@@ -1,0 +1,21 @@
+<header id="header" class="row">   
+  <div class="header-logo">
+      <a href="/">丂爪Ҝ乂ㄒ㇆</a>
+  </div>
+  <nav id="header-nav-wrap">
+      <ul class="header-main-nav">
+          <li><a href="/">ᕼOᙏᙓ</a></li>
+          <li><a 
+href="/pricing">ᕈᖇꙆᙅꙆᙁᘜ</a></li>
+          <li><a href="/price">ᕈᖇᙓᙏꙆᙀᙏ</a></li>
+          <% if (user) { %>
+            <li><a href="/users/logout">Кᙓᒐᙀᗣᖇ</a></li>
+          <% } else { %>
+            <li><a href="/users/register">Đ₳₣₮₳Ɽ</a></li>
+            <li><a href="/users/login">ⱠØ₲ł₦</a></li>
+          <% } %> 
+      </ul>
+      <a href="/docs" class="button button-primary cta">𝐃𝐎𝐂𝐒</a>
+  </nav>
+  <a class="header-menu-toggle" href="#"><span>爪乇几ㄩ</span></a>    	
+</header>
